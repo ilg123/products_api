@@ -14,7 +14,7 @@
 
 1. Клонируйте репозиторий:
    git clone https://github.com/ilg123/products_api.git ->
-   cd product_project
+   cd products_api
 
 2. Создайте файл .env в корневой директории проекта и добавьте следующие строки пример -> env_example.txt
 
