@@ -22,12 +22,11 @@
     docker-compose build
 
 4. Выполните миграции и создайте суперпользователя:
-    docker-compose run web python manage.py makemigrations
-    docker-compose run web python manage.py migrate
+    docker-compose run web python manage.py makemigrations ->
+    docker-compose run web python manage.py migrate ->
     docker-compose run web python manage.py createsuperuser
 
-5. Выполните миграции и создайте суперпользователя:
+5. Запустите контейнеры:
     docker-compose up
-
 
 6. Откройте браузер и перейдите по адресу http://127.0.0.1:8000/, чтобы добавить пункты продуктов.
